@@ -40,3 +40,10 @@ p, li, span, label, input, textarea{
 	width: 1200px;
 	margin: 0 auto;
 }
+
+@media screen add (max-width: 1200px){
+	.main-container{
+		width: 95%
+	}
+
+}
