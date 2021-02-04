@@ -62,8 +62,19 @@ h6 { font-size: 16px }
 
 .greeting-wrapper{
 	display: grid;
+	text-align: center;
+	align-content: center;
 	border: 2px dashed lightcoral;
 	min-height: 10em;
+}
+
+.intro-wrapper{
+	background-color: var(--secondaryColor);
+	border: 1px solid var(--borderColor);
+
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
 @media screen and (max-width: 1200px){
