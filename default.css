@@ -17,10 +17,12 @@ margin: 0;
 
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
+	font-family: 'Russo One', sans-serif;
 
 }
 p, li, span, label, input, textarea{
 	color: var(--mainText);
+	font-family: 'Roboto Mono', monospace;
 }
 
 a{
